@@ -2,25 +2,25 @@
 cask "lillamolnet" do
   binary "lillamolnet", target: "lm"
 
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      sha256 "0cc3eca4dec1c7acc127c88bc013c737bd048e5985dd4314db9460d9ae152d99"
+      sha256 "850c0e0bc81fa896844a1196fd3a271f052c142969f6cc59f765a65841cf69b6"
       url "https://github.com/lillamolnet/cli/releases/download/v#{version}/lillamolnet_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9e764bee4969d95a2f04917dd61fb3b3a6bf9bcfe1eaa41ddb10a2c99957a135"
+      sha256 "d5d89a2707926572063a06ff391d44500b5e8b7a3b2a82309b840797a12e5b15"
       url "https://github.com/lillamolnet/cli/releases/download/v#{version}/lillamolnet_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "3f1fc4459dd22762af977706f99b556edc43d846f98616d2ebda066966db5290"
+      sha256 "c43c1bc9aa23e168dca6e5b3fc82f35320375c3d778938414ee7361552d28634"
       url "https://github.com/lillamolnet/cli/releases/download/v#{version}/lillamolnet_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "83d93ca3258472d82ff6574010f6a740530340a9d30013172db8c8044ca5bfe7"
+      sha256 "68922901a556c537ecd419103bb4a25894d6163fd5fe665d278fc4a5b93038a8"
       url "https://github.com/lillamolnet/cli/releases/download/v#{version}/lillamolnet_#{version}_linux_amd64.tar.gz"
     end
   end
